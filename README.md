@@ -1,1 +1,2 @@
 # mysqlqueries__
+SQL PRACTICAL ASSIGNMENT
