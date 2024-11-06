@@ -151,7 +151,9 @@
 - **Right Join Query**
 
  ` SELECT c.course_name, s.name_, s.rollno`
+
  `FROM students s`
+
  `RIGHT JOIN courses c ON s.rollno = c.rollno;`
 
 
@@ -164,13 +166,17 @@
 - **Full Outer-Join Query**
 
 `SELECT s.name_, s.rollno, c.course_name`
+
 `FROM students s`
+
 `LEFT JOIN courses c ON s.rollno = c.rollno`
 
 `UNION`
 
 `SELECT s.name_, s.rollno, c.course_name`
+
 `FROM students s`
+
 `RIGHT JOIN courses c ON s.rollno = c.rollno;`
 
  
@@ -184,6 +190,7 @@
 - **Distinct Query**
 
  ` SELECT DISTINCT subject_`
+
  `FROM students;`
 
 
